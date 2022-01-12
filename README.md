@@ -26,6 +26,8 @@ To create an relational database, you want to create a new City table:
 
 You can use the script to achieve this. 
 
+## Usage
+
 
 ```plaintext
 python3 parse_excel.py -f students_all.xlsx -cN City -o city.csv -t xlsx
