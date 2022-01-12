@@ -32,9 +32,29 @@ You can use the script to achieve this.
 ```plaintext
 python3 parse_excel.py -f students_all.xlsx -cN City -o city.csv -t xlsx
 ```
-Below command will create:
+This command will create:
 - City.csv file which holds City_ID and City columns.
 - city.csv file which converted City column values to their IDs.
 - city.csv.xlsx file which converted City column values to their IDs.
+
+
+```plaintext
+python3 v2_parsePerson2Drug.py excel_file
+```
+This command will create a new excel file. This excel file contains Personality_IDs for each column except Personality_ID column. Let assume that you have a table:
+
+| Personality_ID   |      Opt1     |  Opt2 |
+|----------|:-------------:|------:|
+|11 |  Y | Y |
+| 12 |    Y   |    |
+| 13 |  |    Y |
+
+Script reates a new table like that:
+| Personality_ID   |      Drug_ID     |
+|----------|:-------------:|
+|11 |  1 |
+| 11 |    2   |  
+| 12 |   1   |  
+| 13 |    2   |  
 
 
