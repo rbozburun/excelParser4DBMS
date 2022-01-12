@@ -15,7 +15,7 @@ For example, you have a Students table:
 | 15 | Samuel |    Washington |
 
 
-To create an acctive database, you want to create a new City table:
+To create an relational database, you want to create a new City table:
 
 | City_ID   |  City |
 |----------|------:|
