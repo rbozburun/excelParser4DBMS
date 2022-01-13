@@ -27,7 +27,27 @@ To create an relational database, you want to create a new City table:
 You can use the script to achieve this. 
 
 ## Usage
+```plaintext
+usage: parse_excel.py [-h] [-f FILE] [-cN COLUMN_NAME] [-o OUTPUT]
+                      [-t FILE_TYPE]
 
+XLSX and CSV parser to create a database.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE
+                        Input file
+
+  -cN COLUMN_NAME, --column_name COLUMN_NAME
+                        Name of the column that want to replace with IDs.
+
+  -o OUTPUT, --output OUTPUT
+                        Output CSV file name.
+
+  -t FILE_TYPE, --file_type FILE_TYPE
+                        Type of the input file.
+                        Available: {CSV, XLSX}
+```
 
 ```plaintext
 python3 parse_excel.py -f students_all.xlsx -cN City -o city.csv -t xlsx
