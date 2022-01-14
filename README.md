@@ -23,6 +23,16 @@ To create an relational database, you want to create a new City table:
 | 2 |    Los Angles |
 | 3 |     Washington |
 
+Also, script creates a new Students table:
+
+| Student_ID   |      Student_Name      |  City |
+|----------|:-------------:|------:|
+|11 |  John | 1 |
+| 12 |    Alice   |   2 |
+| 13 | Jessy |    1 |
+| 14 | Jeff |    1 |
+| 15 | Samuel |    3 |
+
 
 You can use the script to achieve this. 
 
@@ -76,5 +86,3 @@ Script reates a new table like that:
 | 11 |    2   |  
 | 12 |   1   |  
 | 13 |    2   |  
-
-
